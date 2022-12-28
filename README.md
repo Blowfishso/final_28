@@ -10,6 +10,6 @@ ___
 6. Файл **settings.py** содержит тестовые данные 
 7. Файл **test_auth_reg_page** в папке **pages** содержит автотесты UI страниц авторизации и регистрации
 ___
-Для запуска тестов необходимы библиотеки **pytest** и **pytets-selenium**.
+Для запуска тестов необходимы библиотеки **pytest** и **pytest-selenium**.
 
 Запуск тестов производится командой: python -m pytest -v --driver Chrome --driver-path ./chromedriver.exe  tests/test_auth_reg_page.py
